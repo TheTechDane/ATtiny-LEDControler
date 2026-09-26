@@ -1,0 +1,8 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"D1","LED","LED_D3.0mm_Clear",157.455000,-123.000000,0.000000,top
+"J1","WS2812x LED strip","TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm",154.000000,-129.750000,0.000000,top
+"J2","3-5V supply","TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm",161.000000,-102.155000,180.000000,top
+"R1 (sw)","20K","R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",164.100000,-114.630000,-90.000000,top
+"R2 (led)","1k","R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",153.475000,-121.965000,90.000000,top
+"SW1","SW_Push","SW_SPST_PTS647_Sx38",158.750000,-116.755000,0.000000,top
+"U1","ATtiny412-SS","SOIC-8_3.9x4.9mm_P1.27mm",158.750000,-110.155000,0.000000,top

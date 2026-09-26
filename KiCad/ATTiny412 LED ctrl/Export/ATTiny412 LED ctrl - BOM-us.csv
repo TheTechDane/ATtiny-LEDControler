@@ -1,0 +1,8 @@
+"Id","Designator","Footprint","Quantity","Designation","Supplier and ref",
+1,"D1","LED_D3.0mm_Clear",1,"LED",,,
+2,"J1","TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm",1,"WS2812x LED strip",,,
+3,"J2","TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm",1,"3-5V supply",,,
+4,"R1 (sw)","R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",1,"20K",,,
+5,"R2 (led)","R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",1,"1k",,,
+6,"SW1","SW_SPST_PTS647_Sx38",1,"SW_Push",,,
+7,"U1","SOIC-8_3.9x4.9mm_P1.27mm",1,"ATtiny412-SS",,,

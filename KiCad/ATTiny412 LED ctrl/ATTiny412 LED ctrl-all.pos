@@ -1,0 +1,13 @@
+### Footprint positions - created on 2026-09-25T17:39:17 ###
+### Printed by KiCad version 10.0.6
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                Package                                                PosX       PosY       Rot  Side
+D1        LED                LED_D3.0mm_Clear                                   157.4550  -123.0000    0.0000  top
+J1        WS2812x_LED_strip  TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm     154.0000  -129.7500    0.0000  top
+J2        3-5V_supply        TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm     161.0000  -102.1550  180.0000  top
+R1_(sw)   20K                R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal   164.1000  -114.6300  -90.0000  top
+R2_(led)  1k                 R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal   153.4750  -121.9650   90.0000  top
+SW1       SW_Push            SW_SPST_PTS647_Sx38                                158.7500  -116.7550    0.0000  top
+U1        ATtiny412-SS       SOIC-8_3.9x4.9mm_P1.27mm                           158.7500  -110.1550    0.0000  top
+## End
