@@ -1,0 +1,8 @@
+Id,Designator,Quantity,Type,Package,Footprint,Quantity,Designation,Manufacturer,Mfr. No,Supplyer
+1,D1,1,PTH,T-1 (3 mm),LED_D3.0mm_Clear,1,LED,Lumex,SLX-LX3054HD,https://www.mouser.dk/
+2,J1,1,PTH,,TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm,1,WS2812x LED strip,,No mount,
+3,J2,1,PTH,,TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm,1,3-5V supply,,No mount,
+4,R1 (sw),1,PTH,3.6 mm,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,1,20K,Royalohm,CFR0W8J0824A20,https://www.mouser.dk/
+5,R2 (led),1,PTH,3.6 mm,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,1,1k,Royalohm,CFR0W8J0102A20,https://www.mouser.dk/
+6,SW1,1,SMD,Gull Wing Lead,SW_SPST_PTS647_Sx38,1,SW_Push,C&K Switches,PTS647SN70SMTR2N LFS,https://www.mouser.dk/
+7,U1,1,SMD,SOIC-8,SOIC-8_3.9x4.9mm_P1.27mm,1,ATtiny412-SS,Microchip,ATTINY412-SSN,https://www.mouser.dk/
