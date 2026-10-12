@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "7a564fb3-eeb1-4adb-a7dc-cb9d5ce57e23")
 	(paper "A5")
+	(title_block
+		(title "ATTiny LED Strip Controller")
+		(rev "2.0.0")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -460,6 +464,222 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1475,15 +1695,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 115.57 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58a0b59b-4f6b-461d-bbed-6e91c1decb49")
-	)
 	(wire
 		(pts
-			(xy 115.57 54.61) (xy 115.57 58.42)
+			(xy 115.57 54.61) (xy 115.57 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1513,17 +1727,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 52.07) (xy 116.84 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bdc79b2-ffe8-46c3-b3e4-2575a2043eee")
-	)
-	(wire
-		(pts
-			(xy 83.82 52.07) (xy 116.84 52.07)
+			(xy 83.82 52.07) (xy 120.65 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1543,6 +1747,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 114.3) (xy 67.31 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d55031a-e7fa-4fe2-bbc5-70f059387968")
+	)
+	(wire
+		(pts
 			(xy 83.82 59.69) (xy 91.44 59.69)
 		)
 		(stroke
@@ -1550,6 +1764,16 @@
 			(type default)
 		)
 		(uuid "329bd142-ec48-4a21-ac19-4b9f327a3902")
+	)
+	(wire
+		(pts
+			(xy 83.82 62.23) (xy 91.44 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ffe257-8a91-49fd-87e1-6fc45d295a36")
 	)
 	(wire
 		(pts
@@ -1563,6 +1787,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 116.84) (xy 58.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45754b1b-86d2-4629-91f1-638a8b392c87")
+	)
+	(wire
+		(pts
 			(xy 83.82 49.53) (xy 91.44 49.53)
 		)
 		(stroke
@@ -1570,6 +1804,16 @@
 			(type default)
 		)
 		(uuid "48a06901-f150-45b5-a637-aba8e7188758")
+	)
+	(wire
+		(pts
+			(xy 59.69 109.22) (xy 67.31 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "530eacb4-840f-4c2c-b4c2-038b43e5a3f3")
 	)
 	(wire
 		(pts
@@ -1583,6 +1827,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 116.84) (xy 58.42 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c768705-b141-4411-be94-1e2082f17f7b")
+	)
+	(wire
+		(pts
 			(xy 144.78 36.83) (xy 147.32 36.83)
 		)
 		(stroke
@@ -1590,6 +1844,16 @@
 			(type default)
 		)
 		(uuid "5ff37078-9e4a-4dfd-ab43-9a1f5df15388")
+	)
+	(wire
+		(pts
+			(xy 59.69 111.76) (xy 67.31 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676567ba-55b2-4b98-9971-2e7658581bea")
 	)
 	(wire
 		(pts
@@ -1613,17 +1877,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 58.42) (xy 125.73 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e54aeac-5a63-453d-8064-d29a582d510c")
-	)
-	(wire
-		(pts
-			(xy 124.46 45.72) (xy 138.43 45.72)
+			(xy 128.27 52.07) (xy 138.43 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1673,16 +1927,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 58.42) (xy 115.57 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d21e9640-0dd5-4a94-8fa3-38892da82159")
-	)
-	(wire
-		(pts
 			(xy 49.53 36.83) (xy 49.53 39.37)
 		)
 		(stroke
@@ -1703,16 +1947,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 53.34) (xy 128.27 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed757b0c-f3e3-40fa-897d-6a2cefa6eda1")
-	)
-	(wire
-		(pts
 			(xy 83.82 57.15) (xy 91.44 57.15)
 		)
 		(stroke
@@ -1723,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 45.72) (xy 138.43 63.5)
+			(xy 138.43 52.07) (xy 138.43 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1755,6 +1989,54 @@
 			)
 		)
 	)
+	(global_label "Debug-msg (TX)"
+		(shape input)
+		(at 59.69 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3fcdd6ac-eb22-4d7a-bf78-05ddd5e10716")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.6183 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Misc (P3)"
+		(shape input)
+		(at 91.44 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "764a86cb-0dc9-4d9a-b4b1-4b7a0ebb9e98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.7386 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "LED-D"
 		(shape input)
 		(at 91.44 57.15 0)
@@ -1776,6 +2058,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "Misc (P3)"
+		(shape input)
+		(at 59.69 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa1a2519-8e25-47e0-96ed-856e8afd159e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.3914 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Prog"
+		(shape input)
+		(at 59.69 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6fe3b3a-678e-4518-8813-315e4e6f2ccc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.3506 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -1984,84 +2314,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 128.27 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45834a3c-8ffa-4de1-b302-5be8d425b97c")
-		(property "Reference" "#PWR03"
-			(at 128.27 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 128.27 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 128.27 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04b96d22-24cf-42cb-abb3-4575f575ea90")
-		)
-		(instances
-			(project "ATTiny412 LED ctrl"
-				(path "/7a564fb3-eeb1-4adb-a7dc-cb9d5ce57e23"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 152.4 36.83 0)
 		(unit 1)
@@ -2225,7 +2477,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 120.65 58.42 0)
+		(at 115.57 66.04 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2233,10 +2485,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5883fc71-960d-4289-a94b-415a6f2e4319")
 		(property "Reference" "SW1"
-			(at 120.65 50.8 0)
+			(at 123.19 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2246,7 +2497,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 120.65 53.34 0)
+			(at 120.65 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2256,7 +2507,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
-			(at 120.65 53.34 0)
+			(at 120.65 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2267,7 +2518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 53.34 0)
+			(at 120.65 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2278,7 +2529,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 120.65 58.42 0)
+			(at 115.57 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2376,6 +2627,94 @@
 			(project "ATTiny412 LED ctrl"
 				(path "/7a564fb3-eeb1-4adb-a7dc-cb9d5ce57e23"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 72.39 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68e1b7e5-5db4-475d-8928-1d4d8ae1cbfd")
+		(property "Reference" "J3"
+			(at 74.93 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Opt. Pins"
+			(at 74.93 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 72.39 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 72.39 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "f80916e4-6fba-46aa-8506-e9534722adea")
+		)
+		(pin "2"
+			(uuid "2b08c1b0-bc86-4f25-b045-ac9f391159d7")
+		)
+		(pin "1"
+			(uuid "b5d1eaab-4b88-4fd9-9bc4-cbe610fa325c")
+		)
+		(pin "3"
+			(uuid "52a3d021-db89-4c50-b148-244de3ff9a6e")
+		)
+		(instances
+			(project "ATTiny412 LED ctrl"
+				(path "/7a564fb3-eeb1-4adb-a7dc-cb9d5ce57e23"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2643,6 +2982,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 58.42 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ca2aa01-9123-4977-baa5-f01117d310ca")
+		(property "Reference" "#PWR03"
+			(at 58.42 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8038a8d3-d963-4afe-95ec-38b8705c4960")
+		)
+		(instances
+			(project "ATTiny412 LED ctrl"
+				(path "/7a564fb3-eeb1-4adb-a7dc-cb9d5ce57e23"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 138.43 67.31 0)
 		(unit 1)
@@ -2726,7 +3143,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 120.65 45.72 0)
+		(at 124.46 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2737,7 +3154,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6e8d382-76d6-4dd4-aaae-774acb987628")
 		(property "Reference" "D1"
-			(at 119.0625 39.37 0)
+			(at 122.8725 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2747,7 +3164,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 119.0625 41.91 0)
+			(at 122.8725 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2757,7 +3174,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
-			(at 120.65 45.72 0)
+			(at 124.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2768,7 +3185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 45.72 0)
+			(at 124.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2779,7 +3196,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 120.65 45.72 0)
+			(at 124.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2790,7 +3207,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 45.72 0)
+			(at 124.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2810,88 +3227,6 @@
 			(project "ATTiny412 LED ctrl"
 				(path "/7a564fb3-eeb1-4adb-a7dc-cb9d5ce57e23"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c688c963-ea27-48dc-9e90-803f81a9122d")
-		(property "Reference" "R1"
-			(at 118.11 66.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20K"
-			(at 118.11 68.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 113.792 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "655a99f9-1d31-4b1d-8dc3-64ef46636d7a")
-		)
-		(pin "2"
-			(uuid "10cf21f7-2b59-40a8-80e0-a88cc2eb8448")
-		)
-		(instances
-			(project "ATTiny412 LED ctrl"
-				(path "/7a564fb3-eeb1-4adb-a7dc-cb9d5ce57e23"
-					(reference "R1")
 					(unit 1)
 				)
 			)
