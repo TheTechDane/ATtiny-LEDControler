@@ -1,5 +1,5 @@
 /*
- * ATtiny412 WS2812B Multi-Function Controller (Active LOW Button + INPUT_PULLUP)
+ * ATtiny412 WS2812B Multi-Function Controller V2.0
  * -----------------------------------------------------------------------------
  * Dynamic Memory & Flash Optimized Edition (Retains Serial Debugging)
  * 
