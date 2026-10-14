@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "ATTiny LED Strip Controller")
-		(rev "2.0.0")
+		(rev "2.1.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -3143,7 +3143,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 124.46 52.07 0)
+		(at 124.46 52.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3154,7 +3154,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6e8d382-76d6-4dd4-aaae-774acb987628")
 		(property "Reference" "D1"
-			(at 122.8725 45.72 0)
+			(at 126.0475 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3164,7 +3164,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 122.8725 48.26 0)
+			(at 126.0475 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -21,6 +21,7 @@ All user settings (color, effect, and brightness) are bit-packed into a single b
   5. **Full Strip Blink**
   6. **Rainbow Spectrum Shift**
   7. **Smooth White Sparkle Fade** (Fades random LEDs smoothly to pure White at master strip brightness)
+  8. **Lava** (Flowing downwards.)
 - **Long Press:** Smoothly ramps brightness in 5% steps (1% to 100%, alternating direction). Default startup brightness set to **50%** for power safety.
 - **Smart EEPROM Save:** Bit-packs color, effect, and brightness into **1 byte** and commits after 10 seconds of button inactivity to prevent EEPROM wear.
 
@@ -32,8 +33,7 @@ All user settings (color, effect, and brightness) are bit-packed into a single b
 
 ## Circuit Schematic & Connections
 
-![ATtiny412 Schematic Diagram](ATtiny412_Color_Switcher_Schematic.png)
-
+![ATtiny412 Schematic Diagram](<ATtiny412 Schematic Diagram.png>)
 ### Hardware Pinout
 
 | Physical Pin | AVR Pin | Function | Wiring Details |
@@ -42,7 +42,7 @@ All user settings (color, effect, and brightness) are bit-packed into a single b
 | **2** | `PA6` | (Serial TX) | ***Optional*** Debug output to USB-Serial Adapter RX |
 | **3** | `PA7` | Unused | *Unconnected* |
 | **4** | `PA1` | (Status LED) | ***Optional*** Anode (+) to Pin 4, Cathode (-) via 1kΩ Resistor to GND |
-| **5** | `PA2` | Pushbutton | Button Pin 1 to **+5V**; Button Pin 2 to Pin 5 & **20kΩ Pull-down Resistor** to GND |
+| **5** | `PA2` | Pushbutton | Active Low - Button between ground and pin 5 |
 | **6** | `PA0` | UPDI | UPDI Programming Header |
 | **7** | `PA3` | WS2812B Data | Connected directly to `DIN` on LED strip |
 | **8** | `GND` | Ground | Connected to **Common Ground Rail (GND)** |
