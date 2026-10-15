@@ -1,5 +1,5 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-D1,LED,LED_D3.0mm_Clear,158.725,-123.0,0.0,top
+D1,LED,LED_D3.0mm_Clear,158.9024,-123.0376,180.0,top
 J1,WS2812x LED strip,TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm,159.0,-129.75,0.0,top
 J2,3-5V supply,TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm,158.5,-102.155,180.0,top
 J3,Opt. Pins,PinHeader_1x04_P2.54mm_Vertical,164.3888,-115.7732,0.0,bottom
