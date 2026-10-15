@@ -56,7 +56,6 @@ All user settings (color, effect, and brightness) are bit-packed into a single b
 1. **ATtiny412** Microcontroller (SOIC-8 package)
 2. **WS2812B LED Strip** (Up to 180 LEDs, powered by external +5V DC)
 3. **1× Momentary Pushbutton**
-4. **1× 20kΩ Resistor** (External pull-down for button)
 
 ***Optional***
 
