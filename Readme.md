@@ -13,6 +13,7 @@ All user settings (color, effect, and brightness) are bit-packed into a single b
 - **Virtual Tiling (180 LEDs on 256B RAM):** Allocates a 60-byte SRAM buffer (20 virtual pixels) and streams it 9 times continuously down the data wire without triggering a WS2812 reset latch.
 - **Single Click:** Cycle through 8 preset colors (*Red, Yellow, Green, Cyan, Blue, Magenta, White, Warm White*).
 - **Double Click:** Cycle through 8 animation modes:
+  
   0. **Solid Color**
   1. **20-Pixel Chase**
   2. **10-Pixel Spaced Chase**
@@ -56,7 +57,6 @@ All user settings (color, effect, and brightness) are bit-packed into a single b
 1. **ATtiny412** Microcontroller (SOIC-8 package)
 2. **WS2812B LED Strip** (Up to 180 LEDs, powered by external +5V DC)
 3. **1× Momentary Pushbutton**
-4. **1× 20kΩ Resistor** (External pull-down for button)
 
 ***Optional***
 
